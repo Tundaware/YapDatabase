@@ -1,1 +1,0 @@
-../Extensions/ManualView/YapDatabaseManualView.h

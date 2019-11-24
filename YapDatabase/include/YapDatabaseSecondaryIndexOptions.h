@@ -1,1 +1,0 @@
-../Extensions/SecondaryIndex/YapDatabaseSecondaryIndexOptions.h

@@ -1,1 +1,0 @@
-../Extensions/ConnectionProxy/YapDatabaseConnectionProxy.h

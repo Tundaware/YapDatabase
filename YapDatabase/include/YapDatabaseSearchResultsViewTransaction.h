@@ -1,1 +1,0 @@
-../Extensions/SearchResultsView/YapDatabaseSearchResultsViewTransaction.h
