@@ -1577,6 +1577,11 @@
 				371A7B8A1EF18AB0004176EC /* YapDatabaseAutoViewConnection.h */,
 				371A7B8C1EF18AB0004176EC /* YapDatabaseAutoViewTransaction.h */,
 				371A7B8E1EF18AB0004176EC /* YapDatabaseViewTypes.h */,
+				DCBA3C381FAE0EC50086289D /* YapDatabaseCloudCorePrivate.h */,
+				DCBA3C391FAE0EC50086289D /* YapDatabaseCloudCoreOperationPrivate.h */,
+				DCBA3C3A1FAE0EC50086289D /* YapDatabaseCloudCorePipelinePrivate.h */,
+				DCAD7E2721C7E80100004CD3 /* YapDatabaseCloudCoreGraphPrivate.h */,
+				DCBA3C3C1FAE0EC50086289D /* YapManyToManyCache.h */,
 			);
 			path = YapDatabase;
 			sourceTree = "<group>";
@@ -2171,10 +2176,6 @@
 		DCBA3C371FAE0EC50086289D /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				DCBA3C381FAE0EC50086289D /* YapDatabaseCloudCorePrivate.h */,
-				DCBA3C391FAE0EC50086289D /* YapDatabaseCloudCoreOperationPrivate.h */,
-				DCBA3C3A1FAE0EC50086289D /* YapDatabaseCloudCorePipelinePrivate.h */,
-				DCAD7E2721C7E80100004CD3 /* YapDatabaseCloudCoreGraphPrivate.h */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
@@ -2182,7 +2183,6 @@
 		DCBA3C3B1FAE0EC50086289D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				DCBA3C3C1FAE0EC50086289D /* YapManyToManyCache.h */,
 				DCBA3C401FAE0EC50086289D /* YapManyToManyCache.m */,
 				DCBA3C3D1FAE0EC50086289D /* Operations */,
 				DCBA3C411FAE0EC50086289D /* Execution */,
