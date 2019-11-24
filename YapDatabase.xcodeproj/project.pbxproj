@@ -1582,6 +1582,23 @@
 				DCBA3C3A1FAE0EC50086289D /* YapDatabaseCloudCorePipelinePrivate.h */,
 				DCAD7E2721C7E80100004CD3 /* YapDatabaseCloudCoreGraphPrivate.h */,
 				DCBA3C3C1FAE0EC50086289D /* YapManyToManyCache.h */,
+				DCBA3C3F1FAE0EC50086289D /* YapDatabaseCloudCoreOperation.h */,
+				DCBA3C461FAE0EC50086289D /* YapDatabaseCloudCorePipelineDelegate.h */,
+				DCBA3C431FAE0EC50086289D /* YapDatabaseCloudCorePipeline.h */,
+				DCBA3C441FAE0EC50086289D /* YapDatabaseCloudCoreGraph.h */,
+				DCBA3C351FAE0EC50086289D /* YapDatabaseCloudCore.h */,
+				DCBA3C361FAE0EC50086289D /* YapDatabaseCloudCoreOptions.h */,
+				DCBA3C471FAE0EC50086289D /* YapDatabaseCloudCoreConnection.h */,
+				DCBA3C341FAE0EC50086289D /* YapDatabaseCloudCoreTransaction.h */,
+				DC651F271BCEC77E00188E23 /* YDBCKChangeSet.h */,
+				DC651F291BCEC77E00188E23 /* YDBCKMergeInfo.h */,
+				DC651F2B1BCEC77E00188E23 /* YDBCKRecord.h */,
+				DC651F2D1BCEC77E00188E23 /* YDBCKRecordInfo.h */,
+				DC651F2F1BCEC77E00188E23 /* YapDatabaseCloudKit.h */,
+				DC651F311BCEC77E00188E23 /* YapDatabaseCloudKitConnection.h */,
+				DC651F331BCEC77E00188E23 /* YapDatabaseCloudKitOptions.h */,
+				DC651F351BCEC77E00188E23 /* YapDatabaseCloudKitTransaction.h */,
+				DC651F371BCEC77E00188E23 /* YapDatabaseCloudKitTypes.h */,
 			);
 			path = YapDatabase;
 			sourceTree = "<group>";
@@ -1694,15 +1711,10 @@
 			children = (
 				DC651F1A1BCEC77E00188E23 /* Internal */,
 				DC651F261BCEC77E00188E23 /* Utilities */,
-				DC651F2F1BCEC77E00188E23 /* YapDatabaseCloudKit.h */,
 				DC651F301BCEC77E00188E23 /* YapDatabaseCloudKit.m */,
-				DC651F311BCEC77E00188E23 /* YapDatabaseCloudKitConnection.h */,
 				DC651F321BCEC77E00188E23 /* YapDatabaseCloudKitConnection.m */,
-				DC651F331BCEC77E00188E23 /* YapDatabaseCloudKitOptions.h */,
 				DC651F341BCEC77E00188E23 /* YapDatabaseCloudKitOptions.m */,
-				DC651F351BCEC77E00188E23 /* YapDatabaseCloudKitTransaction.h */,
 				DC651F361BCEC77E00188E23 /* YapDatabaseCloudKitTransaction.m */,
-				DC651F371BCEC77E00188E23 /* YapDatabaseCloudKitTypes.h */,
 				DC651F381BCEC77E00188E23 /* YapDatabaseCloudKitTypes.m */,
 			);
 			path = CloudKit;
@@ -1729,13 +1741,9 @@
 		DC651F261BCEC77E00188E23 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				DC651F271BCEC77E00188E23 /* YDBCKChangeSet.h */,
 				DC651F281BCEC77E00188E23 /* YDBCKChangeSet.m */,
-				DC651F291BCEC77E00188E23 /* YDBCKMergeInfo.h */,
 				DC651F2A1BCEC77E00188E23 /* YDBCKMergeInfo.m */,
-				DC651F2B1BCEC77E00188E23 /* YDBCKRecord.h */,
 				DC651F2C1BCEC77E00188E23 /* YDBCKRecord.m */,
-				DC651F2D1BCEC77E00188E23 /* YDBCKRecordInfo.h */,
 				DC651F2E1BCEC77E00188E23 /* YDBCKRecordInfo.m */,
 			);
 			path = Utilities;
@@ -2161,13 +2169,9 @@
 			children = (
 				DCBA3C371FAE0EC50086289D /* Internal */,
 				DCBA3C3B1FAE0EC50086289D /* Utilities */,
-				DCBA3C351FAE0EC50086289D /* YapDatabaseCloudCore.h */,
 				DCBA3C4A1FAE0EC50086289D /* YapDatabaseCloudCore.m */,
-				DCBA3C361FAE0EC50086289D /* YapDatabaseCloudCoreOptions.h */,
 				DCBA3C491FAE0EC50086289D /* YapDatabaseCloudCoreOptions.m */,
-				DCBA3C471FAE0EC50086289D /* YapDatabaseCloudCoreConnection.h */,
 				DCBA3C331FAE0EC50086289D /* YapDatabaseCloudCoreConnection.m */,
-				DCBA3C341FAE0EC50086289D /* YapDatabaseCloudCoreTransaction.h */,
 				DCBA3C481FAE0EC50086289D /* YapDatabaseCloudCoreTransaction.m */,
 			);
 			path = CloudCore;
@@ -2193,7 +2197,6 @@
 		DCBA3C3D1FAE0EC50086289D /* Operations */ = {
 			isa = PBXGroup;
 			children = (
-				DCBA3C3F1FAE0EC50086289D /* YapDatabaseCloudCoreOperation.h */,
 				DCBA3C3E1FAE0EC50086289D /* YapDatabaseCloudCoreOperation.m */,
 			);
 			path = Operations;
@@ -2202,10 +2205,7 @@
 		DCBA3C411FAE0EC50086289D /* Execution */ = {
 			isa = PBXGroup;
 			children = (
-				DCBA3C461FAE0EC50086289D /* YapDatabaseCloudCorePipelineDelegate.h */,
-				DCBA3C431FAE0EC50086289D /* YapDatabaseCloudCorePipeline.h */,
 				DCBA3C451FAE0EC50086289D /* YapDatabaseCloudCorePipeline.m */,
-				DCBA3C441FAE0EC50086289D /* YapDatabaseCloudCoreGraph.h */,
 				DCBA3C421FAE0EC50086289D /* YapDatabaseCloudCoreGraph.m */,
 			);
 			path = Execution;
