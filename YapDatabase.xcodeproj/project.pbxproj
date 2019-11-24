@@ -1540,13 +1540,9 @@
 			isa = PBXGroup;
 			children = (
 				371A7B861EF18AB0004176EC /* Internal */,
-				371A7B881EF18AB0004176EC /* YapDatabaseAutoView.h */,
 				371A7B891EF18AB0004176EC /* YapDatabaseAutoView.m */,
-				371A7B8A1EF18AB0004176EC /* YapDatabaseAutoViewConnection.h */,
 				371A7B8B1EF18AB0004176EC /* YapDatabaseAutoViewConnection.m */,
-				371A7B8C1EF18AB0004176EC /* YapDatabaseAutoViewTransaction.h */,
 				371A7B8D1EF18AB0004176EC /* YapDatabaseAutoViewTransaction.m */,
-				371A7B8E1EF18AB0004176EC /* YapDatabaseViewTypes.h */,
 				371A7B8F1EF18AB0004176EC /* YapDatabaseViewTypes.m */,
 			);
 			path = AutoView;
@@ -1563,8 +1559,26 @@
 		B93B310F23897E6200710E07 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				B9ADD59E238AC7EB00BA992C /* YapDatabase */,
 			);
 			path = include;
+			sourceTree = "<group>";
+		};
+		B9ADD59E238AC7EB00BA992C /* YapDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAF7371D81DC2A00C827C6 /* YapReachability.h */,
+				DC6C28DD1CAAFE3B00166CE4 /* YapActionable.h */,
+				DC6C28DE1CAAFE3B00166CE4 /* YapActionItem.h */,
+				DC6C28E01CAAFE3B00166CE4 /* YapDatabaseActionManager.h */,
+				DC6C28E21CAAFE3B00166CE4 /* YapDatabaseActionManagerConnection.h */,
+				DC6C28E41CAAFE3B00166CE4 /* YapDatabaseActionManagerTransaction.h */,
+				371A7B881EF18AB0004176EC /* YapDatabaseAutoView.h */,
+				371A7B8A1EF18AB0004176EC /* YapDatabaseAutoViewConnection.h */,
+				371A7B8C1EF18AB0004176EC /* YapDatabaseAutoViewTransaction.h */,
+				371A7B8E1EF18AB0004176EC /* YapDatabaseViewTypes.h */,
+			);
+			path = YapDatabase;
 			sourceTree = "<group>";
 		};
 		DC1E7D041D80C901000721B8 /* watchOS */ = {
@@ -2078,14 +2092,9 @@
 			children = (
 				DC6C28DA1CAAFE3B00166CE4 /* Internal */,
 				DCDAF7361D81DC2A00C827C6 /* Utilities */,
-				DC6C28DD1CAAFE3B00166CE4 /* YapActionable.h */,
-				DC6C28DE1CAAFE3B00166CE4 /* YapActionItem.h */,
 				DC6C28DF1CAAFE3B00166CE4 /* YapActionItem.m */,
-				DC6C28E01CAAFE3B00166CE4 /* YapDatabaseActionManager.h */,
 				DC6C28E11CAAFE3B00166CE4 /* YapDatabaseActionManager.m */,
-				DC6C28E21CAAFE3B00166CE4 /* YapDatabaseActionManagerConnection.h */,
 				DC6C28E31CAAFE3B00166CE4 /* YapDatabaseActionManagerConnection.m */,
-				DC6C28E41CAAFE3B00166CE4 /* YapDatabaseActionManagerTransaction.h */,
 				DC6C28E51CAAFE3B00166CE4 /* YapDatabaseActionManagerTransaction.m */,
 			);
 			path = ActionManager;
@@ -2222,7 +2231,6 @@
 		DCDAF7361D81DC2A00C827C6 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				DCDAF7371D81DC2A00C827C6 /* YapReachability.h */,
 				DCDAF7381D81DC2A00C827C6 /* YapReachability.m */,
 			);
 			path = Utilities;
@@ -3124,6 +3132,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
