@@ -44,6 +44,7 @@ let package = Package(
         "Extensions/View/Swift"
       ],
       sources: ["Extensions", "Internal", "Utilities"],
+      publicHeadersPath: "include/YapDatabase",
       cxxSettings: [
         .headerSearchPath("./"),
         .headerSearchPath("./Extensions/**"),
